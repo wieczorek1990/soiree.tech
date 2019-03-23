@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/wieczorek1990
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://soiree.tech
+  * I am wieczorek1990 (https://keybase.io/wieczorek1990) on keybase.
+  * I have a public key with fingerprint ACD7 3E9A 2AB8 8F4E EBF3  7A1E CDC8 3761 FB07 7CEC
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120703e762407e16e36e0ce76881a89164810c0fbeff22ba90746ae465e690093f30a",
+      "fingerprint": "acd73e9a2ab88f4eebf37a1ecdc83761fb077cec",
+      "host": "keybase.io",
+      "key_id": "cdc83761fb077cec",
+      "kid": "0101eebe0cd86da9ba811da64b48509e9c7eb7b496359802041e4111501f9eb697b70a",
+      "uid": "224942d620cb1c9ebafa3214ff3c4419",
+      "username": "wieczorek1990"
+    },
+    "service": {
+      "hostname": "soiree.tech",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1553376178,
+  "expire_in": 157680000,
+  "prev": "0c0e48517b0a939fa13a6df9626834ea3471c8e5e434ca7014260f311391639b",
+  "seqno": 100,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMNvAnicbZJrTBRXHMV3eZTyttGUIrWPKTZQtsu9M7PzIK2YQkIJKMVGKYbsMo87
+7IR1d9kd2IpgLWhbgg0PsZZKGw0U3PKINbTVVCvgoiYUTISo2KqlKmDZFFqCBRul
+M0S/db5M7txzfnP+515fZKAuTD98keb+Danw64f6W0p1BZ+1ntiF8Q5xJ5ayCytG
+Ky9kE5FbsRTLIpaCAYgDGhCIpnAS0AhSiKAQENQ1w0COYSFFMhAIQOKRJOE4z7GA
+JikOkZQJUSwALCERgMMMmCTbi5DL6ZLtiorlBJEmEMvhHM8wEokQLxE0B5EgCgxB
+U1DiAU0LSFCNVodbc6jheM6NjLJD/aYuLCvx/kf/JDeAKlWNKjKUyLE8x0AochTJ
+k4wJsIgVaMTTPMlShIllAA5IiEgIoQlAiUU8xdI8vZK7dAWH4yRL4iKFA4GHgirg
+JI7AISlJhECSkNWEbuSyczuQqvbISCh3uFAxZFmAVRowdatMFpDWrjbOY5nbIbsQ
+MipIsKp+p8uhOASHTd2wKoozRfMpO50rPMRbHiMsvGwX1SpVQxlyuWWHHUuBqlJQ
+ZI0JTSZC64NmDBh636nyLbKmMKnnBdRH+w0q0/oRAFKbgDQPOJZgJQ4SHCVKLIVT
+DEEijiBpKDDIhEiCFDgaQBKngERASKhHTrA8pg1VYneobI2qcEXaQHKRnVNKXQir
+HOgvCNLpw3RPBQdol0wXFrrqydU70xO9nFH51m7yA1vC5enWza1V20r7/KNDfZsH
+/Ll5gzrXyfZNdxNzuLlHg1EFIVUbb+25YR0bDT1fSM5MVmfvhZ7Xll4Ji4qZ0J/s
+avV39fe+YcszRWTkLuq7r5yIO3Qz4uwVT2TS4aVKZDPuaay93/tCavent+du3YyK
+3qdvbgx6L7Ojtpu4g+UeN6/9cqsSnV0Ynu2b9MBvt/hrnONDG/t60J2D6cTktZZz
+1yfO3TsT/yASHTf4f54O4i9s0803FfKxvtmR+D9sYd7AWdKcdG0hIe7yoSzr/dbV
+npHsxZiO3061Hajfbjm7lLHlOf7z9T8lL97o6W823gu0vv5PZ/MGxOcc9C5fP7Im
+yXJgVdoxevZYfnJe4wXLQK3c8OJR8EuEb0p+25/uTW1I3X8qKDQTkWNVQmxp+4ih
+BLW016SfJj6arrCNLxO1mQF/d765pmKwJNhrHc5/KfjDR2oyrPyZ5Hzj1SWhOr4p
+afi8p3j7oC2PmtLBDvHHuti4hacLEz/Wu79fDK/5/fA3VRd3fzVTtG7HXrP04DuI
+GSccctbqzjY2pC62Y8P8n962T8wNr440HT0d/DyWUjk6Oez7q2vGOrgv4GrOw76O
+rDH25XK57t2G9eGG9JiIh7eVqa0L3vHJud6RhB/Sfn020X+kvivp6/p3zGlr101k
+dm+6a57/4tKlIl9+9X+iZMZR
+=3Qwz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wieczorek1990
+
+==================================================================

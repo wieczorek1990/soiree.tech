@@ -1,4 +1,7 @@
+
 "use strict";
+
+var Sequently = Sequently.default;
 
 var fastDuration = 200;
 var slowDuration = 600;
@@ -38,7 +41,7 @@ $(document).ready(function() {
   var $mailto = $('#mailto');
 
   fadeIn([$logo], function() {}, logoDuration);
-  $S.sequence([
+  Sequently.sequence([
     fadeIn,
     fadeIn,
     fadeIn,

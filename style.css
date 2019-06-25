@@ -65,6 +65,20 @@ a:hover, .underline {
   color: #859900;
 }
 
+.italic {
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.italic:hover {
+    -webkit-transform: skewX(-8deg);
+    -moz-transform: skewX(-8deg);
+    -o-transform: skewX(-8deg);
+    transform: skewX(-8deg);
+}
+
 #logo, #upper, #position, #horizontal-ellipsis, #middle, #company, #exclamation-mark, #lower, #name, #dot {
   visibility: hidden;
 }

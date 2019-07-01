@@ -1,3 +1,5 @@
+/* Solarized colorscheme: http://ethanschoonover.com/solarized */
+
 body {
   background-color: #fdf6e3;
   position: absolute;
@@ -35,7 +37,6 @@ a:hover, .underline {
 }
 
 .logo {
-  max-width: auto;
   max-height: 16%;
 }
 
@@ -78,6 +79,6 @@ a:hover, .underline {
     transform: skewX(-8deg);
 }
 
-#logo, #upper, #position, #horizontal-ellipsis, #middle, #company, #exclamation-mark, #lower, #name, #dot {
+#logo, #busy, #position, #horizontal-ellipsis, #contact, #company, #exclamation-mark, #if, #name, #dot {
   visibility: hidden;
 }

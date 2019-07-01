@@ -2,23 +2,23 @@
 
 var Sequently = Sequently.default;
 
-var fastDuration = 200;
-var slowDuration = 600;
-var logoDuration = 11 * slowDuration + fastDuration;
+const fastDuration = 200;
+const slowDuration = 600;
+const logoDuration = 11 * slowDuration + fastDuration;
 
-function fadeIn(args, callback) {
-  var $element = args[0];
-  $element.css('visibility', 'visible').hide().fadeIn('slow', callback);
+function fadeIn(args, callback, duration = 'slow') {
+  const $element = args[0];
+  $element.css('visibility', 'visible').hide().fadeIn(duration, callback);
 }
 
 function highlight(args, callback) {
-  var $highlight = args[0];
+  const $highlight = args[0];
   $highlight.addClass('highlight');
   setTimeout(callback, slowDuration);
 }
 
 function underline(args, callback) {
-  var $mailto = args[0];
+  const $mailto = args[0];
   $mailto.addClass('underline');
   setTimeout(function() {
     $mailto.removeClass('underline');
@@ -26,18 +26,18 @@ function underline(args, callback) {
 }
 
 $(document).ready(function() {
-  var $logo = $('#logo');
-  var $upper = $('#upper');
-  var $position = $('#position');
-  var $horizontalEllipsis = $('#horizontal-ellipsis');
-  var $middle = $('#middle');
-  var $company = $('#company');
-  var $exclamationMark = $('#exclamation-mark');
-  var $highlight = $('#highlight');
-  var $lower = $('#lower');
-  var $name = $('#name');
-  var $dot = $('#dot');
-  var $mailto = $('#mailto');
+  const $logo = $('#logo');
+  const $busy = $('#busy');
+  const $position = $('#position');
+  const $horizontalEllipsis = $('#horizontal-ellipsis');
+  const $contact = $('#contact');
+  const $company = $('#company');
+  const $exclamationMark = $('#exclamation-mark');
+  const $highlight = $('#highlight');
+  const $if = $('#if');
+  const $name = $('#name');
+  const $dot = $('#dot');
+  const $mailto = $('#mailto');
 
   fadeIn([$logo], function() {}, logoDuration);
   Sequently.sequence([
@@ -53,14 +53,14 @@ $(document).ready(function() {
     fadeIn,
     underline
   ], [
-    [$upper],
+    [$busy],
     [$position],
     [$exclamationMark],
-    [$middle],
+    [$contact],
     [$company],
     [$horizontalEllipsis],
     [$highlight],
-    [$lower],
+    [$if],
     [$name],
     [$dot],
     [$mailto]

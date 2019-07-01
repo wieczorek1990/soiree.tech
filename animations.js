@@ -1,4 +1,3 @@
-
 "use strict";
 
 var Sequently = Sequently.default;
@@ -52,7 +51,7 @@ $(document).ready(function() {
     fadeIn,
     fadeIn,
     fadeIn,
-    underline,
+    underline
   ], [
     [$upper],
     [$position],
@@ -64,6 +63,6 @@ $(document).ready(function() {
     [$lower],
     [$name],
     [$dot],
-    [$mailto],
+    [$mailto]
   ]);
 });

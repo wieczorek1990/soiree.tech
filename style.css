@@ -29,6 +29,7 @@ a:hover, .underline {
 
 .cell {
   display: table-cell;
+  height: 100%;
 }
 
 .center-both {

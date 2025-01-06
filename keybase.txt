@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lukaszwieczorek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://soiree.tech
+  * I am lukaszwieczorek (https://keybase.io/lukaszwieczorek) on keybase.
+  * I have a public key ASA2GesG615Mt4a-g9BQ3Go7DA8FUxlDQ4SNw-RsEiEYAgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f69babfd4d7863d6f68c003aca64c6e6fad9fd7eed234cb6d9c1979b198cd9f30a",
+      "host": "keybase.io",
+      "kid": "01203619eb06eb5e4cb786be83d050dc6a3b0c0f0553194343848dc3e46c122118020a",
+      "uid": "47c656392dd5bebc6cf606a5366ee519",
+      "username": "lukaszwieczorek"
+    },
+    "merkle_root": {
+      "ctime": 1736168526,
+      "hash": "61a0b0987d2cd151c99fe04a96a5d5d941e223ab36b351626d4055b080dc235522bb892c9b87652a4309e76ffe6dc000a7bb09867898ddc42652fc772c35f65f",
+      "hash_meta": "6d651a033433969fdeca8af4b507cfb816aeb7d485f84d2871c502cea00a0a32",
+      "seqno": 26429110
+    },
+    "service": {
+      "entropy": "KAAe0OwyZXPfNh6WWuil2tMe",
+      "hostname": "soiree.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.2"
+  },
+  "ctime": 1736168679,
+  "expire_in": 504576000,
+  "prev": "76d0fb6cec5673bb884a10e6c5affc29bb01df2e495d3dabfeb2c3096c7d9da9",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNhnrButeTLeGvoPQUNxqOwwPBVMZQ0OEjcPkbBIhGAIKp3BheWxvYWTESpcCDcQgdtD7bOxWc7uIShDmxa/8KbsB3y5JXT2r/rLDCWx9nanEIClxTinUEQIKoPSbiXhAu+BEyalWCWoxf2pDgo4xs+f/AgHCo3NpZ8RA0g6NRp8EnmwErKEB15RdKQx48Uw1Kx6cdeMVopsscii4ufAgUpXa2bMFFLCEx5UneWikZVzXew8mhpLaJ/UVD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF78bo01AmxDvbzFV9JvtQ/bcUwZC3H4n3Mb1DsPlXkdo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lukaszwieczorek
+
+==================================================================

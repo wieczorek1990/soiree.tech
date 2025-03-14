@@ -1,7 +1,8 @@
 /* Color scheme: http://ethanschoonover.com/solarized */
 
 body {
-  background-color: #fdf6e3;
+/* background-color: #fdf6e3; */
+  background-color: #a6dbff;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -46,7 +47,8 @@ a:hover, .underline {
 }
 
 .highlight {
-  background-color: #eee8d5;
+/* background-color: #eee8d5; */
+  background-color: #dbf1ff;
   transition: all ease-in-out 0.6s;
 }
 

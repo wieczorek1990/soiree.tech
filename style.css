@@ -92,6 +92,7 @@ a:hover,
 #exclamation-mark,
 #if,
 #name,
-#dot {
+#dot,
+#thanks {
     visibility: hidden;
 }

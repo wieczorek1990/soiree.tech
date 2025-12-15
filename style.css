@@ -1,71 +1,72 @@
 /* Color scheme: http://ethanschoonover.com/solarized */
 
 body {
-/* background-color: #fdf6e3; */
-  background-color: #a6dbff;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+    /* background-color: #fdf6e3; */
+    background-color: #a6dbff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: all ease-in-out 0.6s;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out 0.6s;
 }
 
-a:hover, .underline {
-  color: inherit;
-  border-color: inherit;
+a:hover,
+.underline {
+    color: inherit;
+    border-color: inherit;
 }
 
 .table {
-  display: table;
-  width: 100%;
-  height: 100%;
+    display: table;
+    width: 100%;
+    height: 100%;
 }
 
 .cell {
-  display: table-cell;
-  height: 100%;
+    display: table-cell;
+    height: 100%;
 }
 
 .center-both {
-  vertical-align: middle;
-  text-align: center;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .logo {
-  max-height: 16%;
+    max-height: 16%;
 }
 
 .text {
-  font-family: 'Source Code Pro', sans-serif;
+    font-family: "Source Code Pro", sans-serif;
 }
 
 .highlight {
-/* background-color: #eee8d5; */
-  background-color: #dbf1ff;
-  transition: all ease-in-out 0.6s;
+    /* background-color: #eee8d5; */
+    background-color: #dbf1ff;
+    transition: all ease-in-out 0.6s;
 }
 
 .emphasis {
-  color: #586e75;
+    color: #586e75;
 }
 
 .primary {
-  color: #657b83;
+    color: #657b83;
 }
 
 .secondary {
-  color: #93a1a1;
+    color: #93a1a1;
 }
 
 .green {
-  color: #859900;
+    color: #859900;
 }
 
 .italic {
@@ -82,6 +83,15 @@ a:hover, .underline {
     transform: skewX(-8deg);
 }
 
-#logo, #busy, #position, #horizontal-ellipsis, #contact, #company, #exclamation-mark, #if, #name, #dot {
-  visibility: hidden;
+#logo,
+#busy,
+#position,
+#horizontal-ellipsis,
+#contact,
+#company,
+#exclamation-mark,
+#if,
+#name,
+#dot {
+    visibility: hidden;
 }

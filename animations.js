@@ -6,7 +6,7 @@ const fastDuration = 200;
 const slowDuration = 600;
 const logoDuration = 11 * slowDuration + fastDuration;
 
-$.fn.retype = function (delay) {
+$.fn.retype = function (delay, callback) {
   var el = this,
     t = el.text(),
     c = t.split(""),
@@ -16,7 +16,10 @@ $.fn.retype = function (delay) {
   el.empty();
   var interval = setInterval(function () {
     if (i < l) el.text(el.text() + c[i++]);
-    else clearInterval(interval);
+    else {
+      clearInterval(interval);
+      if (callback) callback();
+    }
   }, delay);
 };
 
@@ -47,7 +50,7 @@ function typistText(args, callback) {
   const $target = args[0];
 
   $target.css("visibility", "visible");
-  $target.retype();
+  $target.retype(100, callback);
 }
 
 $(document).ready(function () {
@@ -64,6 +67,7 @@ $(document).ready(function () {
   const $dot = $("#dot");
   const $mailto = $("#mailto");
   const $thanks = $("#thanks");
+  const $privacyPolicy = $("#privacy-policy");
 
   fadeIn([$logo], function () {}, logoDuration);
   Sequently.sequence(
@@ -80,6 +84,7 @@ $(document).ready(function () {
       fadeIn,
       underline,
       typistText,
+      fadeIn,
     ],
     [
       [$busy],
@@ -94,6 +99,7 @@ $(document).ready(function () {
       [$dot],
       [$mailto],
       [$thanks],
+      [$privacyPolicy],
     ],
   );
 });

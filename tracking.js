@@ -4,4 +4,10 @@ $(document).ready(async function() {
   let readyActionId = 1;  // Grab this from Luke.
   let readyAction = window.Śledzik.getUrl(readyActionId);
   await window.Śledzik.hit(readyAction, uuid);
+
+  let emailActionId = 2;  // Grab this from Luke.
+  let emailAction = window.Śledzik.getUrl(emailActionId);
+  $("#mailto").on("click", async function() {
+    await window.Śledzik.hit(emailAction, uuid);
+  });
 });

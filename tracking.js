@@ -10,4 +10,10 @@ $(document).ready(async function() {
   $("#mailto").on("click", async function() {
     await window.Śledzik.hit(emailAction, uuid);
   });
+
+  let privacyPolicyActionId = 3;  // Grab this from Luke.
+  let privacyPolicyAction = window.Śledzik.getUrl(privacyPolicyActionId);
+  $("#privacy-policy").on("click", async function() {
+    await window.Śledzik.hit(privacyPolicyAction, uuid);
+  });
 });

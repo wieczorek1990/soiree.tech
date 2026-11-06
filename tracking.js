@@ -1,5 +1,5 @@
 $(document).ready(async function() {
-  let token = "529e9c72-5fe5-49f4-ae4b-f53140eceb7b";
+  let token = "4c2af087-06ce-4a4a-bdff-fa20e03cae2a";
 
   let userToken = window.Śledzik.getAuthToken();
   if (!userToken) {
